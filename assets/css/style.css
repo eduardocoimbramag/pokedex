@@ -36,16 +36,42 @@ main {
     top: 65.5%;
     left: 8%;
     width: 32.9rem;
-    height: 2.5rem;
-    font-size: 1.6rem;
+    height: 4rem;
+    font-size: 2.5rem;
+    text-align: center;
+    color: gray;
+    background-color: rgb(227, 227, 227);
+}
+
+.pokedex-buttons {
+    position: absolute;
+    top: 87.5%;
+    left: 12.5%;
+}
+
+.poke-input::placeholder {
+    font-size: 2.5rem;
     text-align: center;
     color: gray;
 }
 
 .pokedex-buttons {
-    position: absolute;
-    top: 90%;
-    left: 12.5%;
+    display: flex;
+    justify-content: center;
+    left: 8%;
+    width: 32.9rem;
+}
+
+.prevnext-buttons {
+    margin-inline: 1rem;
+    padding-inline: 3rem;
+    font-size: 3rem;
+    color: gray;
+    background-color: rgb(227, 227, 227);
+}
+
+.prevnext-buttons:hover {
+    cursor: pointer;
 }
 
 #pokedex-img {
@@ -54,10 +80,4 @@ main {
 
 #logo-pokemon {
     width: 35rem;
-}
-
-.poke-input::placeholder {
-    font-size: 1.6rem;
-    text-align: center;
-    color: gray;
 }
