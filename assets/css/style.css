@@ -15,15 +15,37 @@ body {
     width: 100vh;
 }
 
+main {
+    display: flex;
+    justify-content: center;
+}
+
 .heading {
     display: flex;
     justify-content: center;
     padding: 1.5rem;
 }
 
-main {
+.pokedex-container {
+    position: relative;
     display: flex;
-    justify-content: center;
+}
+
+.poke-input {
+    position: absolute;
+    top: 65.5%;
+    left: 8%;
+    width: 32.9rem;
+    height: 2.5rem;
+    font-size: 1.6rem;
+    text-align: center;
+    color: gray;
+}
+
+.pokedex-buttons {
+    position: absolute;
+    top: 90%;
+    left: 12.5%;
 }
 
 #pokedex-img {
@@ -32,4 +54,10 @@ main {
 
 #logo-pokemon {
     width: 35rem;
+}
+
+.poke-input::placeholder {
+    font-size: 1.6rem;
+    text-align: center;
+    color: gray;
 }
