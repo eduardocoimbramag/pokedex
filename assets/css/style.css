@@ -27,5 +27,9 @@ main {
 }
 
 #pokedex-img {
-    height: 60rem;
+    height: 67.5rem;
+}
+
+#logo-pokemon {
+    width: 35rem;
 }
