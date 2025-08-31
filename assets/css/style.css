@@ -10,9 +10,13 @@ h1 {
 }
 
 body {
-    background: linear-gradient(to bottom, rgb(101, 251, 55), cyan);
+    background-image: url(/assets/img/background-pokemon2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     height: 100vh;
     width: 100vh;
+    overflow: hidden;
 }
 
 main {
