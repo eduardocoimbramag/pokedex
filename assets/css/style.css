@@ -4,8 +4,8 @@
     font-size: 62.5%;
 }
 
-h1 {
-    font-size: 6rem;
+h2 {
+    font-size: 2.5rem;
     color: white;
 }
 
@@ -55,16 +55,16 @@ main {
     background-color: rgb(227, 227, 227);
 }
 
-.pokedex-buttons {
-    position: absolute;
-    top: 87.5%;
-    left: 12.5%;
-}
-
 .poke-input::placeholder {
     font-size: 2.5rem;
     text-align: center;
     color: gray;
+}
+
+.pokedex-buttons {
+    position: absolute;
+    top: 87.5%;
+    left: 12.5%;
 }
 
 .pokedex-buttons {
@@ -92,4 +92,24 @@ main {
 
 #logo-pokemon {
     width: 35rem;
+}
+
+#poke-id {
+    display: flex;
+    position: absolute;
+    top: 55.5%;
+    left: 20.5%;
+    color: gray;
+}
+
+#poke-id::after {
+    content: "-";
+}
+
+#poke-name {
+    display: flex;
+    position: absolute;
+    top: 55.5%;
+    left: 30%;
+    color: black;
 }
