@@ -60,6 +60,7 @@ main {
     text-align: center;
     color: gray;
     background-color: rgb(227, 227, 227);
+    border-radius: 7px;
 }
 
 .poke-input::placeholder {
@@ -87,6 +88,7 @@ main {
     font-size: 3rem;
     color: gray;
     background-color: rgb(227, 227, 227);
+    border-radius: 7px;
 }
 
 .prevnext-buttons:hover {
