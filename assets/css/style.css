@@ -43,6 +43,13 @@ main {
     display: flex;
 }
 
+.pokemon-image {
+    position: absolute;
+    top: 29%;
+    left: 27%;
+    height: 25%;
+}
+
 .poke-input {
     position: absolute;
     top: 65.5%;
