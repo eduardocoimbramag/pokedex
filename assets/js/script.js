@@ -1,5 +1,6 @@
 const pokemonName = document.querySelector("#poke-name")
 const pokemonId = document.querySelector("#poke-id")
+const pokemonImage = document.querySelector(".pokemon-image")
 
 async function fetchPokemon(pokemon) {
     const APIResponse = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemon}`)
@@ -12,7 +13,8 @@ async function renderPokemon(pokemon) {
 
     pokemonName.innerHTML = data.name
     pokemonId.innerHTML = data.id + "&nbsp;"
+    pokemonImage.src = data.sprites.versions["generation-v"]["black-white"].animated.front_default
 
 }
 
-renderPokemon(800)
+renderPokemon(12)
