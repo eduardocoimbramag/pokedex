@@ -121,4 +121,5 @@ main {
     top: 55.5%;
     left: 34%;
     color: black;
+    text-transform: capitalize;
 }
